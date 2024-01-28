@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ol,
+ul {
+
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: #525CEB;
+  background-color: #3D3B40; 
+}
+
+
+.Language-Card{
+  width: 150px;
+  height: 100px;
+  border: 2px solid #525CEB;
+  border-radius: 10px;
+  background-color: #F8EDFF;
+  color: #525CEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+
+  &:hover{
+    background-color: #525CEB;
+    color: #F8EDFF;
+    cursor: pointer;
+  }
+}
+
+.Language-Card-Container{
+  overflow: auto;
+  margin: 50px;
+  padding: 10px;
+  border: 1px solid #525CEB;
+  border-radius: 20px;
+  background-color: #979df5;
+
+}
+
+
+
+/* Estilos generales de la scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Estilo del "pulgar" */
+::-webkit-scrollbar-thumb {
+  background-color: #525CEB; /* Azul */
+  border-radius: 5px;
+  border: 2px solid #F8EDFF; /* Borde blanco */
+}
+
+/* Estilo al pasar el mouse sobre el "pulgar" */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #525CEB; /* Azul más oscuro */
+}
+
+/* Estilo de la "pista" */
+::-webkit-scrollbar-track {
+  background-color: #F8EDFF; /* Gris claro */
+  border-radius: 5px;
+}
+
+/* Estilo de la "esquina" entre la pista y el pulgar */
+::-webkit-scrollbar-corner {
+  background-color: #F8EDFF; /* Coincide con el color de la pista */
+}
